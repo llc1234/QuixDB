@@ -111,8 +111,7 @@ else:
  - No SQL query parser (basic filtering only)
  - No transaction rollback capability
  - No built-in data encryption
-
-# Limited to single-node operation
+ - Limited to single-node operation
 
 # Performance Considerations
  - Reads are O(n) without unique constraints
