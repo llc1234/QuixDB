@@ -21,13 +21,13 @@ QuixDB uses a directory structure where:
 - File-based locking ensures transaction safety
 
 ### Storage Structure
-database_folder/
-  └── table_name/
-  ├── meta.json
-  ├── rows/
-  │   └── [id].json
-  └── index_[column_name]/
-  └── [sha256_hash]
+database_folder/\n
+  └── table_name/\n
+  ├── meta.json\n
+  ├── rows/\n
+  │   └── [id].json\n
+  └── index_[column_name]/\n
+  └── [sha256_hash]\n
 
 
 ## Installation
