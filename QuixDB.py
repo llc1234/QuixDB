@@ -281,3 +281,6 @@ class QuixDB:
         finally:
             self._release_lock(table)
         return rows_deleted
+
+def connect(folder):
+    return QuixDB.connect(folder)
